@@ -1,7 +1,5 @@
 // Takes in an array that has two sorted subarrays,
 //  from [p..q] and [q+1..r], and merges the array
-// Takes in an array that has two sorted subarrays,
-//  from [p..q] and [q+1..r], and merges the array
 var assert = require("assert");
 var merge = function(array, p, q, r) {
     var lowHalf = [];
